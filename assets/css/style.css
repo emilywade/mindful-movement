@@ -1,3 +1,8 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Catamaran:wght@100..900&display=swap');
+
+/* Overriding default styles */
 * {
     padding: 0;
     margin: 0;
@@ -11,6 +16,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
+    font-family: 'Catamaran', sans-serif;
 }
 
 /* Header */

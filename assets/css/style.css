@@ -22,7 +22,10 @@ body {
 
 /* Header */
 header {
-    background-color: aliceblue;
+    background-color: #FDF7FF;
+    position: fixed;
+    width: 100%;
+    padding-left: 1rem;
 }
 
 h1 {

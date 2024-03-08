@@ -38,6 +38,10 @@ header a {
     color: inherit;
 }
 
+header li {
+    list-style-type: none;
+}
+
 .active {
     text-decoration: underline #5C7DE0 wavy 3px;
 }

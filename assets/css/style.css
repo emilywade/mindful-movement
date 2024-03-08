@@ -25,6 +25,12 @@ header {
     background-color: aliceblue;
 }
 
+h1 {
+    font-family: 'Averia Sans Libre', sans-serif;
+    font-style: italic;
+}
+
+
 /* Main content */
 main {
     background-color: antiquewhite;

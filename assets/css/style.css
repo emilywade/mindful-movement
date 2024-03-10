@@ -22,7 +22,8 @@ body {
 
 /* Header */
 header {
-    background-color: #FDF7FF;
+    background-color: #016290;
+    color: #f3f3f3;
     position: fixed;
     width: 100%;
     padding-left: 1rem;
@@ -31,6 +32,7 @@ header {
 h1 {
     font-family: 'Averia Sans Libre', sans-serif;
     font-style: italic;
+    font-size: 100%;
 }
 
 header a {
@@ -43,7 +45,7 @@ header li {
 }
 
 .active {
-    text-decoration: underline #5C7DE0 wavy 3px;
+    text-decoration: underline #f7d1d3 wavy 3px;
 }
 
 /* Main content */

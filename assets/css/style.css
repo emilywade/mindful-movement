@@ -48,6 +48,10 @@ header li {
     text-decoration: underline #f7d1d3 wavy 3px;
 }
 
+#menu {
+    font-size: 90%;
+}
+
 /* Main content */
 main {
     background-color: antiquewhite;

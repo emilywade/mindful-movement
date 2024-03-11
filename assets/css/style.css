@@ -107,3 +107,43 @@ main {
 footer {
     background-color: aqua;
 }
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width:768px){
+    /* Header */    
+    header {
+        height:60px;
+    }
+    
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 10px;
+        top:0;
+    }
+
+    #logo {
+        font-size:x-large;
+        padding: 0 0 0 204.8px;
+    }
+
+    #menu {
+        display: flex;
+        font-size: 100%;
+    }
+
+    #menu > li {
+        padding-left: 10px;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    /* Main content */
+    main {
+        margin-top:60px;
+    }
+
+}

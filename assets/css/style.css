@@ -69,6 +69,10 @@ header li {
     font-size: 90%;
 }
 
+#menu a:hover {
+    color: #f7d1d3;
+}
+
 /* Navbar */
 
 nav {

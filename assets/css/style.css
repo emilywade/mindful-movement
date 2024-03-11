@@ -118,6 +118,7 @@ main {
     justify-content: center;
     align-items: center;
     box-shadow: 0 1px 1px #0e0e0e;
+    margin-bottom: 10px;
 }
 
 #hero-text > h1 {
@@ -131,6 +132,7 @@ main {
 
 #info {
     font-size: 80%;
+    text-align: center;
 }
 
 #info img {
@@ -138,6 +140,10 @@ main {
     height:150px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+#info h2 {
+    padding-top: 10px;
 }
 
 /* Footer */

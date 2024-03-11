@@ -26,13 +26,18 @@ header {
     color: #f3f3f3;
     position: fixed;
     width: 100%;
-    padding-left: 1rem;
+
+}
+
+#logo {
+    padding: 5px 0;
 }
 
 h1 {
     font-family: 'Averia Sans Libre', sans-serif;
     font-style: italic;
     font-size: 100%;
+    text-align: center;
 }
 
 header a {
@@ -50,6 +55,17 @@ header li {
 
 #menu {
     font-size: 90%;
+}
+
+/* Navbar */
+
+nav {
+    position: absolute;
+    background-color: #016290;
+    width: 100%;
+    left:0;
+    text-align: center;
+    display: none;
 }
 
 /* Main content */

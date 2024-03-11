@@ -26,11 +26,20 @@ header {
     color: #f3f3f3;
     position: fixed;
     width: 100%;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 10px;
 }
 
 #logo {
-    padding: 5px 0;
+    padding: 0 0 0 30px;
+    text-align: center;
+    font-size: larger;
+}
+
+#logo-container {
+    flex-grow:2;
 }
 
 h1 {
@@ -47,6 +56,7 @@ header a {
 
 header li {
     list-style-type: none;
+    padding-bottom:2px;
 }
 
 .active {
@@ -66,12 +76,30 @@ nav {
     left:0;
     text-align: center;
     display: none;
+    top:100%;
+    padding-bottom:10px;
+}
+
+#nav-toggle:checked~nav {
+    display:block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    flex-basis: 30px;
+    font-size: 2rem;
+    text-align: center;
+    vertical-align: middle;
 }
 
 /* Main content */
 main {
     background-color: antiquewhite;
     flex: 1 0 auto;
+    margin-top:52px;
 }
 
 /* Footer */

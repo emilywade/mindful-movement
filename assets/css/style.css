@@ -126,7 +126,7 @@ main {
     padding-bottom:10px;
 }
 
-#hero-text > p{
+#hero-text > p {
     font-size:90%;
 }
 
@@ -207,5 +207,15 @@ main {
     main {
         margin-top:60px;
     }
+
+    #hero {
+        height:400px;
+        padding:40px 130px;
+    }
+
+    #hero-text p {
+       padding-top: 30px; 
+    }
+
 
 }

@@ -155,6 +155,10 @@ main {
     display:inline;
 }
 
+#info p {
+    padding:10px 0;
+}
+
 /* Footer */
 #social-networks {
     background-color: #016290;

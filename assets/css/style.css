@@ -255,5 +255,15 @@ main {
 
 /* Media query: laptops and larger */
 @media screen and (min-width:1024px) {
-    
+    #info {
+        display:flex;
+    }
+
+    #info-div {
+        display:block;
+    }
+
+    #info img {
+        margin-top:30px;
+    }
 }

@@ -159,6 +159,25 @@ main {
     padding:10px 0;
 }
 
+/* Practices page */
+#practices-intro {
+    padding:20px;
+    text-align:center;
+}
+
+#practices-intro h1 {
+    background-color: #f7d1d3;
+    font-style:italic;
+    display:inline;
+    padding: 2px 3px;
+}
+
+#practices-intro p {
+    padding-top:5px;
+    line-height: 110%;
+}
+
+
 /* Footer */
 #social-networks {
     background-color: #016290;

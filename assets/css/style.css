@@ -170,11 +170,13 @@ main {
     font-style:italic;
     display:inline;
     padding: 2px 3px;
+    font-size:130%;
 }
 
 #practices-intro p {
-    padding-top:5px;
+    padding-top:10px;
     line-height: 110%;
+    font-size:90%;
 }
 
 

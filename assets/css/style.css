@@ -214,6 +214,21 @@ main {
     background-size:cover;
 }
 
+#senses {
+    background-image: url('../images/five-senses.jpg');
+    background-size:cover;
+}
+
+#scan {
+    background-image: url('../images/body-scan.jpg');
+    background-size:cover;
+}
+
+#eating {
+    background-image: url('../images/mindful-eating.jpg');
+    background-size:cover;
+}
+
 
 /* Footer */
 #social-networks {

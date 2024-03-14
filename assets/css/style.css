@@ -416,6 +416,7 @@ main {
         justify-content: center;
         align-items: center;
         padding:0;
+        margin-bottom:20px;
     }
 
     .technique {
@@ -424,7 +425,7 @@ main {
         max-width: fit-content;
     }
 
-    #bar1, #bar3 {
+    #bar2, #bar4 {
         order:1;
     }
 

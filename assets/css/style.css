@@ -190,10 +190,19 @@ main {
     font-style: italic;
 } 
 
+.technique-progress {
+    margin:0 5%;
+}
+
 .technique {
     margin-bottom: 30px;
     border: 1px solid #016290;
     border-radius: 10px;
+    height:300px;
+    width:100%;
+    display: flex; /* Add this line */
+    align-items: center; /* Add this line */
+    justify-content: center;
 }
 
 .technique li {
@@ -206,6 +215,7 @@ main {
     color:black;
     font-weight: 500;
     padding-left:10px;
+    padding: 5%;
 }
 
 #breathing {

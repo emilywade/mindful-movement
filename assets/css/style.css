@@ -200,8 +200,8 @@ main {
     border-radius: 10px;
     height:300px;
     width:100%;
-    display: flex; /* Add this line */
-    align-items: center; /* Add this line */
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -275,6 +275,54 @@ main {
 
 #social-networks i:hover {
     color:#f7d1d3;
+}
+
+/* Connect Page */
+#where {
+    margin: 20px;
+    text-align: center;
+    border: 5px solid #6ea4b6;
+    border-radius: 10px;
+    padding:10px 20px 20px 20px;
+    background-color: rgba(247, 209, 211, .3)
+}
+
+#address h2 {
+    font-size:110%;
+    font-style: italic;
+}
+
+#address p {
+    font-size:80%;
+    line-height:0;
+    padding: 10px 0;
+}
+
+#address hr {
+    width:70%;
+    margin: 0 auto;
+}
+
+#table {
+    font-size: 80%;
+}
+
+#timetable {
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-top:10px;
+    width:100%;
+}
+
+#timetable td, #timetable th {
+    border:1px solid #0e0e0e;
+    padding:8px
+}
+
+#timetable tr:nth-child(even){background-color: lightgray;}
+
+#timetable th {
+    background-color:#6ea4b6;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -465,6 +513,6 @@ main {
         padding-left:100px;
     }
 
-    
+
 
 }

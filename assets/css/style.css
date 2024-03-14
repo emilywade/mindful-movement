@@ -278,7 +278,7 @@ main {
 }
 
 /* Connect Page */
-#where {
+#where, #newsletter {
     margin: 20px;
     text-align: center;
     border: 5px solid #6ea4b6;
@@ -287,18 +287,18 @@ main {
     background-color: rgba(247, 209, 211, .3)
 }
 
-#address h2 {
+#address h2, #signup h2 {
     font-size:110%;
     font-style: italic;
 }
 
 #address p {
     font-size:80%;
-    line-height:0;
+    line-height: 0;
     padding: 10px 0;
 }
 
-#address hr {
+#address hr, #signup hr {
     width:70%;
     margin: 0 auto;
 }
@@ -324,6 +324,21 @@ main {
 #timetable th {
     background-color:#6ea4b6;
 }
+
+#signup p {
+    font-size:80%;
+    padding: 10px 0;
+}
+
+#preferences-header {
+    font-size:80%;
+    font-style: italic;
+}
+
+label {
+    font-size:80%;
+}
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width:768px){

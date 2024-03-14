@@ -528,6 +528,17 @@ label {
         padding-left:100px;
     }
 
+    /* Connect page */
+    #connect-main {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
 
+    #connect-main > div {
+        width:50%;
+        height: 600px;
+        font-size: 110%;
+    }
 
 }

@@ -366,6 +366,29 @@ main {
         text-align:left;
     }
 
+    #senses {
+        margin-left:13.3%;
+    }
+
+    #bar2 {
+        margin-left:13.3%;
+    }
+
+    #scan {
+        margin-left:26.6%;
+    }
+
+    #bar3 {
+        margin-left:26.6%;
+    }
+
+    #eating {
+        margin-left:40%;
+    }
+
+    #bar4 {
+        margin-left:40%;
+    }
 }
 
 /* Media query: laptops and larger */

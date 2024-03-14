@@ -366,6 +366,10 @@ main {
     .technique {
         max-width:60%;
     }
+
+    .technique-progress {
+        margin:0;
+    }
     
     .inner-technique {
         margin:30px 60px;

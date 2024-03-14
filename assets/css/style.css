@@ -419,8 +419,8 @@ main {
     }
 
     .technique {
-        width:90%;
-        min-height:400px;
+        width:80%;
+        height:300px;
         max-width: fit-content;
     }
 
@@ -430,10 +430,25 @@ main {
 
     .progress-bar {
         display: block;
+        width:10%;
+        height:300px;
+        padding-top:30px;
     }
 
     .dot-empty, .dot-full {
         display: block;
+        width: 50px;
+        height:50px;
+        margin:10px 0px;
     }
+
+    #breathing, #scan {
+        padding-right:100px;
+    }
+
+    #senses, #eating {
+        padding-left:100px;
+    }
+
 
 }

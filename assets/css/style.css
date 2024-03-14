@@ -161,12 +161,12 @@ main {
 
 /* Practices page */
 /* Intro */
-#practices-intro {
+#practices-intro, #connect-intro {
     padding:20px;
     text-align:center;
 }
 
-#practices-intro h1 {
+#practices-intro h1, #connect-intro h1 {
     background-color: #f7d1d3;
     font-style:italic;
     display:inline;
@@ -174,7 +174,7 @@ main {
     font-size:130%;
 }
 
-#practices-intro p {
+#practices-intro p, #connect-intro p {
     padding-top:10px;
     line-height: 110%;
     font-size:90%;
@@ -359,7 +359,7 @@ main {
     }
 
     /* Practices page */
-    #practices-intro {
+    #practices-intro, #connect-intro {
         padding: 20px 20%;
     }
 
@@ -465,5 +465,6 @@ main {
         padding-left:100px;
     }
 
+    
 
 }

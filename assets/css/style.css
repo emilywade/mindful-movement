@@ -202,11 +202,10 @@ main {
 
 .inner-technique {
     margin:20px;
-    background-color: #6ea4b6;
+    background-color: rgba(110, 164, 182,.8);
     color:black;
     font-weight: 500;
     padding-left:10px;
-    opacity:0.8;
 }
 
 #breathing {
@@ -227,6 +226,26 @@ main {
 #eating {
     background-image: url('../images/mindful-eating.jpg');
     background-size:cover;
+}
+
+.progress-bar {
+    text-align: center;
+}
+
+.dot-empty {
+    height: 25px;
+    width: 25px;
+    border: 2px solid #f7d1d3;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-full {
+    height: 25px;
+    width: 25px;
+    background-color: #f7d1d3;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 

@@ -348,7 +348,24 @@ main {
     .left {
         order:-1;
     }
+
+    /* Practices page */
+    #practices-intro {
+        padding: 20px 20%;
+    }
+
+    .technique {
+        max-width:60%;
+    }
     
+    .inner-technique {
+        margin:30px 60px;
+    }
+
+    .progress-bar {
+        text-align:left;
+    }
+
 }
 
 /* Media query: laptops and larger */

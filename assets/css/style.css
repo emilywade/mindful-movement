@@ -320,6 +320,17 @@ label {
     font-size:80%;
 }
 
+.join-button {
+    width:80px;
+    height:30px;
+    background-color: #6ea4b6;
+    color: #0e0e0e;
+    border-radius: 10px;
+    font-family: 'Averia Sans Libre', sans-serif;
+    font-style: italic;
+    margin-top:20px;
+}
+
 /* Footer */
 #social-networks {
     background-color: #016290;
@@ -550,6 +561,13 @@ label {
 
     #address, #signup {
         padding-bottom: 50px;
+    }
+
+    .join-button {
+        margin-top:30px;
+        width:100px;
+        height:40px;
+        font-size: 100%;
     }
 
 }

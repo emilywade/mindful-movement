@@ -517,9 +517,18 @@ label {
     }
 
     .technique {
+        height: 300px;
+        width: 440px;
+    }
+
+    .inner-technique {
         width:80%;
-        height:300px;
-        max-width: fit-content;
+        height:90%;
+        margin:auto;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     #bar2, #bar4 {
@@ -538,14 +547,6 @@ label {
         width: 50px;
         height:50px;
         margin:10px 0px;
-    }
-
-    #breathing, #scan {
-        padding-right:100px;
-    }
-
-    #senses, #eating {
-        padding-left:100px;
     }
 
     /* Connect page */

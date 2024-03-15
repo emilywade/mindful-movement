@@ -320,6 +320,15 @@ label {
     font-size:80%;
 }
 
+#preferences label {
+    display: inline-block; 
+    margin: 0 10px; 
+}
+
+#preferences input[type="checkbox"] {
+    vertical-align: middle; 
+}
+
 .join-button {
     width:80px;
     height:30px;

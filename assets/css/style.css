@@ -258,25 +258,6 @@ main {
 }
 
 
-/* Footer */
-#social-networks {
-    background-color: #016290;
-    text-align:center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-
-#social-networks i {
-    color:#f3f3f3;
-    font-size: 150%;
-}
-
-#social-networks i:hover {
-    color:#f7d1d3;
-}
-
 /* Connect Page */
 #where, #newsletter {
     margin: 20px;
@@ -337,6 +318,25 @@ main {
 
 label {
     font-size:80%;
+}
+
+/* Footer */
+#social-networks {
+    background-color: #016290;
+    text-align:center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    color:#f3f3f3;
+    font-size: 150%;
+}
+
+#social-networks i:hover {
+    color:#f7d1d3;
 }
 
 

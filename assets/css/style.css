@@ -541,4 +541,15 @@ label {
         font-size: 110%;
     }
 
+    #where, #newsletter {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #address, #signup {
+        padding-bottom: 50px;
+    }
+
 }

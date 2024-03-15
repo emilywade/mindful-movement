@@ -166,11 +166,11 @@ main {
     text-align:center;
 }
 
-#practices-intro h1, #connect-intro h1 {
+#practices-intro h2, #connect-intro h2 {
     background-color: #f7d1d3;
     font-style:italic;
     display:inline;
-    padding: 2px 3px;
+    padding: 0 5px;
     font-size:130%;
 }
 
